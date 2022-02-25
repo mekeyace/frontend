@@ -1,0 +1,5 @@
+.outline { height: auto; }
+.roule_bk { width: 1024px; height: 1600px; 
+margin: 0 auto; border:1px solid red;
+background:url("../roule/image/rullet_back.png") no-repeat center center;
+}

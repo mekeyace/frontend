@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* 메뉴 */
+.menus {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+    background-color: cadetblue;
+}
+.menus > ul {
+    width:100%;
+    height: 60px;
+}
+.menus > ul > li{
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+.menus > ul > li:hover{
+    background-color:darkcyan;
+}
+
+
+.mv_page {
+    height: 100vh;
+    position: relative;
+}
+.mp { 
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    overflow: hidden;
+}
+.logo {
+    position: absolute;
+    z-index: 1;
+    width: 700px;
+    left: 50%;
+    margin-left: -350px;
+    top:50px;    /* hegiht:auto 줄 경우 %가 작동하지 않음 */
+}
+.info{  /* 이벤트 문구 적용 css */
+    width: 700px;
+    height: 240px;
+    position: absolute;
+    z-index: 2;
+    top:300px;
+    left:50%;
+    margin-left: -350px;
+}
+.info > ul {
+    width: 100%;
+    height: auto;
+}
+.info > ul > li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:rgba(0,0,0,0.4);
+}
+.info > ul > li:nth-child(1){
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+.info > ul > li:nth-child(2){
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.info > ul > li:nth-child(3){
+    font-family: 'Noto Serif KR', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.color1 { 
+    display: inline-block;
+    color: orange;
+}
+/* 이벤트 참여버튼 */
+.btn {
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 200px;
+    height: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    border:2px solid #222222;
+    line-height: 50px;
+    text-align: center;
+}
+.btn:hover {
+    background-color: red;
+}

@@ -1,0 +1,48 @@
+.div_nav { width: 100%; height: 230px; }
+.div1 { width: inherit; height: 40px; border-bottom: 1px solid #ccc;}
+.div2 { width: inherit; height: 150px; border-bottom: 1px solid #ccc;}
+.div3 { width: inherit; height: 40px; border-bottom: 1px solid #ccc;}
+.span1 { width: 1220px; height: inherit; margin: 0 auto; border:1px solid red; }
+.span2 { width: 1220px; height: inherit; margin: 0 auto; border:1px solid red; }
+.span3 { width: 1220px; height: inherit; margin: 0 auto; border:1px solid red; }
+.label1, .label2 { width: 25px; height: 25px; float: left; 
+    border:1px solid red;
+    margin-left: 50px; }
+.label1 { background-image: url("../shop1/menu/top_cart.gif");
+background-repeat: no-repeat;
+background-size:contain;
+background-position:center;
+}
+.label2 { background-image: url("../shop1/menu/top_search.gif");
+background-repeat: no-repeat;
+background-size:contain;
+background-position:center -2px;
+}
+/*
+.ulcss { 
+    height: inherit;
+    line-height: 40px;
+}
+.ulcss > li { 
+    display: inline-block;
+    border:1px solid red;
+    margin-right: 10px;
+    position: relative;
+}
+.olcss {
+    width: 120px; 
+    height: auto;
+    border:1px solid blue;
+    position:absolute;
+}
+*/
+.menu3 {height:40px; border-bottom:1px solid #ededed;}
+.menu3 > label {width:1220px; height: inherit; margin:0 auto;}
+.left_menu {float: left; height:inherit; font-family: 'Noto Sans KR';}
+.left_menu > li,.right_menu > li {float: left; width:auto; height:inherit; line-height:40px; margin-right:15px; cursor: pointer; position: relative;}
+.left_menu > li:nth-last-of-type(1),.right_menu > li:nth-last-of-type(1){margin:0;}
+.right_menu {float:right; font-family: 'Noto Sans KR';}
+.left_menu > li > ol {width:120px; height: auto; position: absolute; display: none;}
+.left_menu > li > ol > li {width:inherit; height:25px; line-height: 25px;}
+.right_menu > li > ol {width:120px; height: auto; position: absolute;}
+.right_menu > li > ol > li {width: inherit; height: 25px; line-height: 25px;}

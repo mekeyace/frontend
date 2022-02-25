@@ -1,0 +1,93 @@
+.banner{
+    position: relative;
+    width: 1220px;
+    height: auto;
+    margin: 0 auto;
+}
+.banner > .span_banner{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    display: none;
+}
+.banner > .span_banner > label{
+    width: 1220px;
+    height: 650px;
+}
+.banner > .span_banner > label > img{
+    width: 1220px;
+    height: 650px;
+}
+.banner > .span_banner > ul{
+    position: absolute;
+    height: auto;
+    top: 120px;
+    left: 60px;
+    overflow: hidden;
+}
+.banner > .span_banner > ul > li{
+    position:relative;
+}
+.banner > .span_banner > ul > li:nth-of-type(1){
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 15px;
+   opacity: 0;
+}
+.banner > .span_banner > ul > li:nth-of-type(2){
+    font-size: 35px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 20px;
+    opacity: 0;
+}
+.banner > .span_banner > ul > li:nth-of-type(3){
+    font-size: 14px;
+    color: #666;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 20px;
+    opacity: 0;
+}
+.banner > .span_banner > ul > li:nth-of-type(4){
+    font-size: 11px;
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 200px;
+    height: 35px;
+    border: 1px solid black;
+    line-height: 35px;
+    text-indent: 5px;
+    cursor: pointer;
+    opacity: 0;
+}
+.banner_btn{
+    position: absolute;
+    height: 45px;
+    bottom: 0;
+}
+.banner_btn > ul{
+    width: inherit;
+    height: inherit;
+}
+.banner_btn > ul > li{
+    width: 235px;
+    height: 45px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    line-height: 45px;
+    font-size: 13px;
+    float: left;
+    cursor: pointer;
+}
+.banner_btn > ul > li:hover{
+    box-sizing: border-box;
+    background-color: #ffffff !important;
+    border: 1px solid #f2f2f2 !important;
+}
+.banner_click > ul > li:nth-of-type(1){
+    background-color: #f2f2f2;
+}
+.banner_click > ul > li:nth-of-type(2){
+    background-color: #FFFFFF;
+    border: 1px solid #f2f2f2;
+}
