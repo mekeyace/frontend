@@ -1,6 +1,6 @@
 $(function(){
     let $data = ["500포인트","5,000포인트","꽝! 다음 기회에","3,000포인트","2,000포인트","1,000포인트"];
-    let $r = 0; //오브젝트 최초의 위치 값
+    let $r = 0; 
 
     $("#gamebtn").click(function(){
         $("#msg").css("display","none");
