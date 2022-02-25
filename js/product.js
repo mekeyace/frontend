@@ -83,8 +83,6 @@ function product_data(data){
 var pd_uuu = document.getElementsByClassName("pd_cs_ul");
 
 function mouse_en(aaa) {
-    // console.log(pd_uuu[aaa].children);
-
     var rr1 = 0
     var li_ea = pd_uuu[0].children.length;    
     do{
@@ -114,7 +112,6 @@ $(function (){
         dataType:"JSON",
 
         success:function($a1,$a2){
-            // console.log($a1);
             $.fn.pd_jq_data($a1);
         },
         error:function(){
